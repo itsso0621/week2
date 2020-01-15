@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Your mission - replicate the visual styles in the jpeg provided using CSS advanced selectors and the HTML document provide. You CANNOT use simple type selectors, classes or Ids! */
+html {
+  font-size: 1.2em;
+  line-height: 1.8em;
+  height: 100%;
+}
+body {
+  margin: auto 200px;
+  font-family: 'Cute Font', Arial, serif;
+}
+
+body div {
+  background-color: orange;
+  padding: 10px 30px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+section h2 {
+  font-size: 1.8em;
+}
+
+div > iframe {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  border: none;
+  height:70vh;
+  width:70vh;
+
+  /* frameBorder="0" class="giphy-embed" allowFullScreen */
+}
+
+p > em {
+  font-size: 1.8em;
+  color: green;
+}
+
+section p{
+  color: purple;
+  line-height: normal;
+}
+
+section p:first-of-type{
+  color: black;
+  line-height: normal;
+}
+
+section > p:first-letter {
+  font-size: 4em;
+}
+
+section > p:first-line {
+  line-height: 4em;
+}
+
+
+li em {
+
+  color: green;
+  font-size: 2em;
+}
+
+ul li:nth-child(4) {
+  color: yellow;
+  font-size: 2em;
+}
+
+
+ul li:nth-child(odd) {
+  text-decoration: underline;
+}
+
+footer > p {
+  color: #fff;
+}
